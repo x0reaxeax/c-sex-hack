@@ -3,9 +3,9 @@ typedef unsigned char byte;
 byte _[23] = { 0 }; 
 
 char *wtf_c_sex(char *wtf) {
-    *(unsigned long long *) (&wtf[0])   ^= 3253102085011356707ULL;
-    *(unsigned int *)       (&wtf[8])   ^= 911087650U;
-    *(unsigned short *)     (&wtf[12])  ^= 15667U;
+    *(unsigned long long *) (&wtf[0])   ^= 5488294861448562763ULL;
+    *(unsigned int *)       (&wtf[8])   ^= 1161173567U;
+    *(unsigned short *)     (&wtf[12])  ^= 28489U;
     return wtf;
 }
 
